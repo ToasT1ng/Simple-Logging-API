@@ -8,7 +8,8 @@ Simple Logging API Sample with Spring Cloud Sleuth
 ### Test
 ```
 $ git clone https://github.com/ToasT1ng/Simple-Logging-API.git
-$ bash <directory>/shellscript/start.sh
+$ cd <directory>/shellscript
+$ bash start.sh
 $ curl -XPOST localhost:8080/once
 ```
 <br/>
@@ -28,5 +29,6 @@ $ curl -XPOST 'localhost:8080/loop?msg=hello&loopTimes=10&term=1'
 ### If you want to restart Spring App
 Just simply rerun `start.sh` again
 ```
-$ bash <directory>/shellscript/start.sh
+$ cd <directory>/shellscript
+$ bash start.sh
 ```
