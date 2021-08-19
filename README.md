@@ -3,6 +3,9 @@
 ## What is this?
 Simple Logging API Sample with Spring Cloud Sleuth
 
+### See Also
+This Project is related to [EFK](https://github.com/ToasT1ng/EFK)
+
 ## Usage
 
 ### Test
