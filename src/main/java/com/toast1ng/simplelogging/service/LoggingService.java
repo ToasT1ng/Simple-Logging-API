@@ -6,7 +6,14 @@ import org.springframework.stereotype.Service;
 @Slf4j
 @Service
 public class LoggingService {
-    public void defaultLogging(){
-        log.info("default logging");
+    public void loggingTest(){
+        log.info("test logging");
+    }
+
+    public void loggingLoop(String msg, int loopTimes, int term) throws InterruptedException {
+        for (int i=0 ; i<loopTimes; i++) {
+            log.info(msg);
+            Thread.sleep((long) term * 1000);
+        }
     }
 }
